@@ -5,9 +5,9 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-}
 
-#color-1palette-heading,#color-1palette-1,#color-1palette-2,#color-1palette-3{text-align: center;padding: 24px;font-family: 'Times New Roman', Times, serif;}
+
+#color-1palette-heading,#color-1palette-1,#color-1palette-2,#color-1palette-3{text-align: center;padding: 24px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 #color-1palette-1{background-color:#b0f2b4;}
 #color-1palette-2{background-color:#baf2e9;}
@@ -19,9 +19,10 @@ body {
 #color-2palette-1{background-color:#26547c}
 #color-2palette-2{background-color:#ef476f;}
 #color-2palette-3{background-color:#ffd166;}
-#color-2palette-heading,#color-2palette-1,#color-2palette-2,#color-2palette-3{text-align: center;padding: 24px;font-family: fantasy;}
-
+#color-2palette-heading,#color-2palette-1,#color-2palette-2,#color-2palette-3{text-align: center;padding: 24px;}
+#color-2palette-heading,#color-2palette-1,#color-2palette-2,#color-2palette-3{font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
 #color-3palette-1{background-color:#f49097;}
 #color-3palette-2{background-color:#DFB2F4;}
 #color-3palette-3{background-color:#F5E960;}
-#color-3palette-heading,#color-3palette-1,#color-3palette-2,#color-3palette-3{text-align: center;padding: 24px;font-family: cursive;}
+#color-3palette-heading,#color-3palette-1,#color-3palette-2,#color-3palette-3{text-align: center;padding: 24px;font-family:Georgia, 'Times New Roman', Times, serif;}
+}
