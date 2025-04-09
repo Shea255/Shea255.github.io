@@ -6,3 +6,38 @@
 
     Good luck, and have fun!
 */
+
+#pic1 {
+    width: 100px;
+    margin-top: 50px;
+    border-width: 10px;
+    border-style:outset;
+    border-color: brown;
+}
+
+div p {
+    margin: 30px;
+    font-family: fantasy;
+    color: brown;
+}
+.text-art {
+    border: 5px outset darkolivegreen;
+    background-color: white;
+    margin: 33px;
+}
+
+#frame-1 {
+    border: 10px solid red;
+    margin-top: 75px;
+    color: white;
+    background-color: white;
+}
+
+#art3 {
+    padding: 12px;
+    width: 100px;
+    border: outset brown 10px;
+    background-color: white;
+    margin-top: 50px;
+}
+
