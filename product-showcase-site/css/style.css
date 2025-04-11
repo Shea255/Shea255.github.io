@@ -9,12 +9,12 @@ body {
 
 #navbar-column,.center-column,
 #footer-column {
-width: 500px;margin: 0px auto;}
+    width: 500px;margin: 0px auto;}
 
 .light-container {
-background-color: #e79e8e;
-padding: 36px 0px;
-text-align: center;
+    background-color: #e79e8e;
+    padding: 36px 0px;
+    text-align: center;
 }
 
 .Third-container {
@@ -24,12 +24,12 @@ text-align: center;
 }
 
 .dark-container {
-background-color: #dde7f6;
-padding: 36px 0px;
+    background-color: #dde7f6;
+    padding: 36px 0px;
 text-align: center;
 }
 
 .side-by-side img {
-padding-left: 36px;
-width: 100%;
+    padding-left: 36px;
+    width: 100%;
 }
