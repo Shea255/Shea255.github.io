@@ -7,4 +7,24 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
+.card-style-1 {
+    max-width: 350px;
+    margin: 16px;
+    box-shadow: 4px 4px 8px #00000088;
+    background-color: mintcream;
+}
+.card-style-1,h2 {
+    text-align: center;
+    font-size: xx-small;
+}
+ .card-style-1,img {
+    width: 100px;
+ }
 
+a {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    width: 200px;
+} 
+ 
