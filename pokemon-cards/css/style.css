@@ -1,0 +1,92 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+.card-style-3 {
+   width: 350px;
+   padding: 24px;
+   margin: 16px;
+   border-radius: 12px;
+   border: 20px solid gold;
+   max-height: 100vh;
+
+}
+.card-style-3 img {
+    width: 100%;
+    border: 7px solid goldenrod;
+}
+.details {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    background: linear-gradient(
+        90deg, 
+        goldenrod, 
+        gold,  
+        goldenrod
+    );
+}
+.attack {
+    padding-top: 24px;
+    font-size: 16px;
+    display: flex;
+    padding-bottom: 24px;
+    border-bottom: 2px solid;
+    margin-bottom: 12px;
+}
+.bold {
+    font-size: larger;
+    font-weight: bold;
+}
+.power {
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 24px;
+    justify-content: right;
+    
+
+}
+.fa-solidfa-leaf {
+    padding-top: 24px;
+}
+.data {
+    border: 3px solid orange;
+    font-size: small; 
+    padding: 5px;
+}
+
+.health {
+    display: flex;
+    -ms-flex-align: start;
+    flex: 1;
+    font-weight: bolder;
+    margin: 0px;
+    justify-content: right;
+}
+#pokemon-card-3 .power {
+    text-align: right;
+     
+}
+#pokemon-card-3 .bold {
+    padding-top: 24px;
+}
+.name {
+    margin: 0px;
+    display: flex;
+    flex: 3;
+    -ms-flex-align: end;
+}
+#pokemon-card-1,#pokemon-card-2 {
+    background: linear-gradient(to bottom right, lightgreen, green, lightgreen);
+}
+#pokemon-card-3 {
+    background: linear-gradient(to bottom right, orange, orangered, orange);
+}
+#pokemon-card-4 {
+    background: linear-gradient(to bottom right, aqua, lightblue, aqua);
+}
