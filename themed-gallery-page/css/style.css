@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: lightyellow;
+}
+#three-columns {
+    display: grid;grid-template-columns: 1fr 1fr 1fr;
+}
+ #column-2,#column-1,#column-3 {
+    padding: 24pt;;
+    width: 35%;
+}
+#mid-1,#mid-2,#mid-3,#b-1,#b-2,#b-3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#name {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 50px;
+    color: white;
+  }
+ #hero-1 {
+     background-image: url("../images/hero.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;position: relative;
+    margin-bottom: 100px;
+    padding: 50px;
+    margin-left: 24px;
+    margin-right: 24px;
+    
+}
+    
+    
+ #hero-1 .hero-content {
+    text-align: right;position: absolute;top: 5%;right: 10%;}
+    
+#hero-1 h2, h3 {
+    font-size: 80px;margin-bottom: 60px;}
+
+
