@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: grey;
+}
+#three-columns {
+    display: grid;grid-template-columns: 1fr 1fr 1fr;
+}
+ #column-2,#column-1,#column-3 {
+    padding: 24pt;;
+    width: 35%;
+
+    }
+#mid-1,#mid-2,#mid-3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#name {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 50px;
+    color: white;
+  }
+ #hero-1 {
+     background-image: url("../images/urban-hi-res-2nse.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;position: relative;
+    margin-bottom: 100px;
+    padding: 50px;
+    margin-left: 24px;
+    margin-right: 24px;
+    
+}
+    
+    
+ #hero-1 .hero-content {
+    text-align: right;position: absolute;top: 5%;right: 10%;}
+    
+#hero-1 h2, h3 {
+    font-size: 80px;margin-bottom: 60px;}
+#links {
+display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;
+border: solid 10px;
+margin-left: 24px;
+margin-right: 24px;
+background-color: black;
+}
+#L-1 {
+    padding-left: 70px;
+    margin-bottom: 24px;
+}
+#L-2 {
+    padding-left: 100px;
+    
+}
+#L-3 {
+    padding-left: 100px;
+}
+#L-4 {
+    padding-left: 100px;
+    
+}
+#links a {
+    text-decoration: none;
+    font-family: "Tinos", serif;
+    color: white;
+}
+#links h4 {
+    font-family: "Tinos", serif;
+    color: white;
+}
