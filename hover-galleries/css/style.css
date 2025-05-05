@@ -21,6 +21,20 @@ body {
     padding: 24px;
     text-align: center;
 }
+#card-1 {
+    background-image: url("../images/2.png");
+}
+#card-2 {
+    background-image: url("../images/3.png");
+}
+
+#card-3 {
+    background-image: url("../images/4.png");
+}
+
+#card-4 {
+    background-image: url("../images/1.png");
+}
 
 /*pseudo-class */
 #card-1:hover .card-content {
@@ -56,18 +70,4 @@ body {
 
 #card-4:hover .card-content {
     opacity: 0;visibility: hidden;
-}
-#card-1 {
-    background-image: url("../images/2.png");
-}
-#card-2 {
-    background-image: url("../images/3.png");
-}
-
-#card-3 {
-    background-image: url("../images/4.png");
-}
-
-#card-4 {
-    background-image: url("../images/1.png");
 }
