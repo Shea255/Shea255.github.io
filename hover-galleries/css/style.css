@@ -23,6 +23,8 @@ body {
 }
 #card-1 {
     background-image: url("../images/2.png");
+    height: 500px;
+    width: 500px;
 }
 #card-2 {
     background-image: url("../images/3.png");
