@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card {
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+}
+
+/*pseudo-class */
+#card-1:hover .card-content {
+    transition: 
+        opacity 0.5s ,
+        visibility 0.5s;
+}
+#card-1:hover .card-content {
+    opacity: 0;visibility: hidden;}
+
+#card-2:hover .card-content {
+    transition: 
+        opacity 0.5s ,
+        visibility 0.5s;
+}
+#card-2:hover .card-content {
+    opacity: 0;visibility: hidden;
+}
+
+#card-3:hover .card-content {
+    transition: 
+        opacity 0.5s ,
+        visibility 0.5s;
+}
+#card-3:hover .card-content {
+    opacity: 0;visibility: hidden;
+}
+#card-4:hover .card-content {
+    transition: 
+        opacity 0.5s ,
+        visibility 0.5s;
+}
+
+#card-4:hover .card-content {
+    opacity: 0;visibility: hidden;
+}
+#card-1 {
+    background-image: url("../images/2.png");
+}
+#card-2 {
+    background-image: url("../images/3.png");
+}
+
+#card-3 {
+    background-image: url("../images/4.png");
+}
+
+#card-4 {
+    background-image: url("../images/1.png");
+}
