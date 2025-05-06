@@ -8,15 +8,15 @@
     </head>
     <body>
         <div id="navbar">
-            <a id="logo" href="#">AdoptMePlz</a>
+            <a id="logo" href="index.html">AdoptMePlz</a>
             <div class="dropdown-container">
             </div>
             <div class="dropdown-container">
-                <a href="#">Adopt</a>
+                <a href="#navbar">Adopt</a>
                 <div class="dropdown-menu">
-                    <a href="#">Honey</a>
-                    <a href="#">Sparky</a>
-                    <a href="#">Max</a>
+                    <a href="page-1">Honey</a>
+                    <a href="page-2">Sparky</a>
+                    <a href="page-3">Max</a>
                 </div>
             </div>
             <a href="#">Donate</a>

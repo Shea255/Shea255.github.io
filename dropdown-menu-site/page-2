@@ -12,7 +12,7 @@
             <div class="dropdown-container">
             </div>
             <div class="dropdown-container">
-                <a href="navbar">Adopt</a>
+                <a href="#navbar">Adopt</a>
                 <div class="dropdown-menu">
                     <a href="page-1">Honey</a>
                     <a href="page-2">Sparky</a>
@@ -23,6 +23,11 @@
             <div class="dropdown-container">
                 <a href="#">Volunteer</a>
             </div>
+        </div>
+        <div id="Sparky">
+            <img src="/images/3.png" alt="honey" width="300px">
+            <p>Sparky is a sweet five year old spanspaniel andterrier  mix who loves park and beach days </p>
+
         </div>
         
     </body>

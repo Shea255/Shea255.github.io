@@ -12,7 +12,7 @@
             <div class="dropdown-container">
             </div>
             <div class="dropdown-container">
-                <a href="navbar">Adopt</a>
+                <a href="#navbar">Adopt</a>
                 <div class="dropdown-menu">
                     <a href="page-1">Honey</a>
                     <a href="page-2">Sparky</a>
