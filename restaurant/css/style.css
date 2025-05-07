@@ -23,7 +23,7 @@ body {
 }
 
 #navbar a:hover {
-    background: linear-gradient(to top, #109cb8, #0e5b96);
+    background: linear-gradient(to top,#FFF1CD,white);
 }
 
 #navbar #logo {
@@ -57,11 +57,11 @@ body {
 }
 
 .dropdown-menu a {
-    background-color: darkslateblue;
+    background-color: #FFF1CD;
     width: 100%;
     min-width: 200px;
 }
 
 #navbar .dropdown-menu a:hover {
-    background: slateblue;
+    background: #FFF1CD;
 }
