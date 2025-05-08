@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -5,4 +6,84 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+}
+
+#Main {
+    width: 200px;margin: 0px auto;
+    display: inline-block;width: 49%;
+    border: solid orange;
+    margin: 100px;
+    padding: 40px;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 300px;
+    background-color: orange;
+    
+}
+
+.Teams {
+    display: flex
+}
+
+
+#Second {
+padding-left: 65px;
+}
+#vs {
+    padding-top: 70px;
+    padding-left: 55px;
+    color: white;
+}
+
+#MC {
+    text-align: center;
+}
+
+#cta a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+#cta , #det ,#Q {
+    text-align: center;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#det ,#Q {
+    padding-top: 20px;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#det {
+    padding-top: 40px;
+}
+
+#MC h1 {
+    padding-bottom: 24px;
+    font-size: 40px;
+    color: white;
+}
+
+#det h2 {
+    font-size: 30px;
+    color: white;
+}
+.tinos-regular {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+#MC h4 {
+    color: brown;
+    font-size: 19px;
 }
