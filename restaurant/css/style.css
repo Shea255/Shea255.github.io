@@ -185,3 +185,11 @@ padding-top: 15px;
 #img-1 {
     padding-top: 24PX;
 }
+@media screen and (max-width: 650px) and (min-width: 450px){
+    #c-1,#c-2,#c-3,#c-4 {
+        flex: none;
+    }
+    #navbar {
+        flex:none;
+    }
+}
