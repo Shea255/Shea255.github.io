@@ -89,15 +89,15 @@ padding-left: 65px;
     font-size: 19px;
 }
 
-#cta:hover {
-    background-color: red;
-    box-shadow: 6px 4px 6px #00000033;
-    transform: translateY(-10px);
-}
-
-#cta {
+#cta a {
     transition: 
         background-color 0.5s,
         box-shadow 0.5s,
         transform 0.5s;
+}
+
+#cta:hover a {
+    background-color: red;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
 }
