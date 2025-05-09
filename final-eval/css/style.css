@@ -101,3 +101,12 @@ padding-left: 65px;
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px);
 }
+
+@media screen and (max-width: 500px) and (min-width: 450px) {
+.Team {
+    flex: none;
+}
+#Second {
+    flex: none;
+}
+}
