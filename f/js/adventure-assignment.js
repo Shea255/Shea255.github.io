@@ -46,19 +46,19 @@ function reactToMoveRightButton() {
 }
 
 function reactToMoveLeftButton() {
-    moveLeft(50);
+    moveLeft(100);
 }
 
 function reactToMoveDownButton() {
-    movedDown(50);
+    moveDown(100);
 }
 
 function reactToMoveUpButton() {
-    moveUp(50);
+    moveUp(100);
 }
 
 function reactToAttackButton() {
- attack(100);
+   attack(100);
 }
 
 function reactToJumpRightButton() {
